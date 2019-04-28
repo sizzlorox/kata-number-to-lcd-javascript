@@ -109,10 +109,6 @@ class NumberToLCD {
     return array[0].map((col, i) => array.map(row => row[i]));
   }
 
-  stringsForThese(lines) {
-    return lines.map(line => line);
-  }
-
   linesForThese(digits) {
     return digits.map(digit => this.LINES_FOR[digit]);
   }
