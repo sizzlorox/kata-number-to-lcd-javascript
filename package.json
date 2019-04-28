@@ -1,0 +1,16 @@
+{
+  "name": "kata-number-to-led",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kata.js",
+  "scripts": {
+    "start": "node kata.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "sizzlorox",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.7.1"
+  }
+}
